@@ -1,0 +1,18 @@
+export default function Header(){
+
+  return(
+
+    <header className="w-full h-20 top-0 left-0 z-50 bg-green-700 shadow-md shadow-gray-600 p-30 flex justify-between items-center fixed">
+      <div className="px-4"> 
+      <img src="/logo.png" alt="" className="w-38 h-16" />
+      </div>
+      <nav>
+        <a href="/" className="px-4 text-white">Home</a>
+        <a href="/about" className="px-4 text-white">Sobre</a>
+        <a href="/contact" className="px-4 text-white">Contato</a>
+      </nav>
+    </header>
+
+  )
+
+}
